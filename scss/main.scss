@@ -1,0 +1,19 @@
+// Imports
+@import "resets";
+@import "variables";
+@import "attribution";
+@import "configs";
+
+body {
+  @include display-flex;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+// Main
+.main-wrapper {
+  width: 70%;
+  border: 1px solid red;
+}
