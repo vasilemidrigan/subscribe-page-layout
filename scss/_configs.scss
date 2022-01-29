@@ -1,7 +1,8 @@
 // Mixins:
 // display-flex
-@mixin display-flex {
+@mixin display-flex($flex-direction: row) {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: $flex-direction;
 }

@@ -1,19 +1,27 @@
 // Imports
 @import "resets";
 @import "variables";
-@import "attribution";
 @import "configs";
+@import "header";
+@import "form";
+@import "footer";
+@import "attribution";
 
 body {
-  @include display-flex;
-  font-size: 20px;
+  @include display-flex();
   font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  color: $gray;
   width: 100vw;
   height: 100vh;
 }
-
-// Main
+// Main Wrapper
 .main-wrapper {
   width: 70%;
-  border: 1px solid red;
+  height: 100%;
+}
+// Dashboard Image
+.main__image {
+  width: 100%;
+  margin: 40px 0 60px 0;
 }

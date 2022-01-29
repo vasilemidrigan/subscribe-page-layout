@@ -1,0 +1,14 @@
+footer {
+  @include display-flex(column);
+  .socials {
+    margin-bottom: 20px;
+  }
+  i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: $blue;
+  }
+  .copyright {
+    text-align: center;
+  }
+}

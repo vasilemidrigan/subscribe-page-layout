@@ -1,0 +1,30 @@
+// Header & headers
+header {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+  h1 {
+    margin: 60px 0 40px 0;
+    color: $very-dark-blue;
+    & span {
+      color: $blue;
+    }
+  }
+  h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  h6 {
+    margin-bottom: 20px;
+  }
+  h6,
+  h2 span {
+    color: $very-dark-blue;
+    font-weight: 800;
+  }
+}

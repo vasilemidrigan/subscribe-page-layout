@@ -5,6 +5,142 @@
   padding: 0;
 }
 
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+header h6 {
+  text-align: center;
+}
+
+header h1 {
+  margin: 60px 0 40px 0;
+  color: #151f29;
+}
+
+header h1 span {
+  color: #4f7df3;
+}
+
+header h2 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+header h6 {
+  margin-bottom: 20px;
+}
+
+header h6,
+header h2 span {
+  color: #151f29;
+  font-weight: 800;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form #email {
+  padding-left: 20px;
+}
+
+form ::-webkit-input-placeholder {
+  font-size: 0.9em;
+  color: #b8b7b7;
+}
+
+form :-ms-input-placeholder {
+  font-size: 0.9em;
+  color: #b8b7b7;
+}
+
+form ::-ms-input-placeholder {
+  font-size: 0.9em;
+  color: #b8b7b7;
+}
+
+form ::placeholder {
+  font-size: 0.9em;
+  color: #b8b7b7;
+}
+
+form .email__error-message {
+  color: red;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+form .hidden {
+  display: none;
+}
+
+form .submit {
+  background-color: #4f7df3;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9em;
+  -webkit-box-shadow: 0px 5px 10px #c2d3ff;
+          box-shadow: 0px 5px 10px #c2d3ff;
+}
+
+form .submit:hover {
+  cursor: pointer;
+}
+
+form input,
+form button {
+  outline: none;
+  border: 1px solid #969696;
+  border-radius: 20px;
+  width: 100%;
+  height: 35px;
+  margin: 5px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .socials {
+  margin-bottom: 20px;
+}
+
+footer i {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #4f7df3;
+}
+
+footer .copyright {
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -24,14 +160,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  color: #969696;
   width: 100vw;
   height: 100vh;
 }
 
 .main-wrapper {
   width: 70%;
-  border: 1px solid red;
+  height: 100%;
+}
+
+.main__image {
+  width: 100%;
+  margin: 40px 0 60px 0;
 }
 /*# sourceMappingURL=main.css.map */
