@@ -11,9 +11,12 @@ form {
   }
   // Error Message Styles
   .email__error-message {
-    color: red;
+    color: $light-red;
     font-style: italic;
     font-size: 0.9em;
+  }
+  .email__error-border {
+    border: 1px solid $light-red;
   }
   .hidden {
     display: none;

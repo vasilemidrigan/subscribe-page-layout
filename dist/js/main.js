@@ -1,7 +1,6 @@
 "use strict";
 // Variables
 const form = document.querySelector(".form");
-console.log("form:", form);
 const email = document.getElementById("email");
 const submit = document.querySelector(".submit");
 const errorMessage = document.querySelector(".email__error-message");
@@ -11,6 +10,7 @@ email.addEventListener(
   function () {
     if (email.validity.valid) {
       errorMessage.classList.add("hidden");
+      email.classList.remove("email__error-border");
     } else {
       displayError();
     }
@@ -20,8 +20,9 @@ email.addEventListener(
 // Display Error Function
 function displayError() {
   errorMessage.classList.remove("hidden");
+  email.classList.add("email__error-border");
 }
-// Our own validation
+// Validation
 form.addEventListener("submit", function (e) {
   console.log("catched");
   if (email.validity.valid === false) {

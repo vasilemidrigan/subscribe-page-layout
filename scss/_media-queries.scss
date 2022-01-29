@@ -1,0 +1,11 @@
+// Media queries
+
+// min-width: 350px
+@media (min-width: 350px) {
+  #email,
+  .submit {
+    max-width: 80%;
+  }
+}
+
+// min-width: 800px

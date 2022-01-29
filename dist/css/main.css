@@ -79,9 +79,13 @@ form ::placeholder {
 }
 
 form .email__error-message {
-  color: red;
+  color: #ff5263;
   font-style: italic;
   font-size: 0.9em;
+}
+
+form .email__error-border {
+  border: 1px solid #ff5263;
 }
 
 form .hidden {
@@ -150,6 +154,13 @@ footer .copyright {
   color: #3e52a3;
 }
 
+@media (min-width: 350px) {
+  #email,
+  .submit {
+    max-width: 80%;
+  }
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,12 +178,14 @@ body {
   font-family: "Libre Franklin", sans-serif;
   font-size: 14px;
   color: #969696;
+  min-width: 230px;
   width: 100vw;
   height: 100vh;
 }
 
 .main-wrapper {
   width: 70%;
+  max-width: 330px;
   height: 100%;
 }
 
