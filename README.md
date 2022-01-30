@@ -29,11 +29,11 @@ Users should be able to:
 
 Mobile version
 
-![Image](dist\images\screenshots\mob_version.png)
+![Image](dist/images/screenshots/mob_version.png)
 
 Mobile version - error state
 
-![Image](dist\images\screenshots\mob__version_error__states.png)
+![Image](dist/images/screenshots/mob__version_error__states.png)
 
 Desktop Version
 
@@ -41,11 +41,11 @@ Desktop Version
 
 Desktop version - Invalid email format error state
 
-![Image](dist\images\screenshots\desktop_version__error_state.jpg)
+![Image](dist/images/screenshots/desktop_version__error_state.jpg)
 
 Desktop version - Empty input field error state
 
-![Image](dist\images\screenshots\desktop_version_error_state_2.jpg)
+![Image](dist/images/screenshots/desktop_version_error_state_2.jpg)
 
 ### Links
 
