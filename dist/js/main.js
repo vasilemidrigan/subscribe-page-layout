@@ -19,13 +19,19 @@ email.addEventListener(
 );
 // Display Error Function
 function displayError() {
+  if (email.value === "") {
+    errorMessage.textContent =
+      "Whoops! It looks like you forgot to add your email!";
+  } else {
+    errorMessage.textContent = "Please provide a valid email!";
+  }
   errorMessage.classList.remove("hidden");
   email.classList.add("email__error-border");
 }
 // Validation
 form.addEventListener("submit", function (e) {
   console.log("catched");
-  if (email.validity.valid === false) {
+  if (email.validity.valid === false || email.textContent === "") {
     displayError();
     e.preventDefault();
   }

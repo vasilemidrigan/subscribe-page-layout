@@ -161,6 +161,53 @@ footer .copyright {
   }
 }
 
+@media (min-width: 800px) {
+  .main-wrapper {
+    min-width: 400px;
+    height: 100%;
+  }
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+  }
+  form .submit {
+    -ms-flex-negative: 2;
+        flex-shrink: 2;
+  }
+  form .submit:hover {
+    background-color: #5884f3;
+  }
+  form .email__error-message {
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+  }
+  i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5.5px;
+  }
+  i:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #4f7df3;
+  }
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;

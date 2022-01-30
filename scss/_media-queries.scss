@@ -9,3 +9,36 @@
 }
 
 // min-width: 800px
+@media (min-width: 800px) {
+  .main-wrapper {
+    min-width: 400px;
+    height: 100%;
+  }
+  form {
+    @include display-flex(row);
+    position: relative;
+    .submit {
+      flex-shrink: 2;
+      &:hover {
+        background-color: lighten($blue, 2);
+      }
+    }
+    .email__error-message {
+      position: absolute;
+      bottom: -15px;
+      left: 20px;
+    }
+  }
+  i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5.5px;
+    &:hover {
+      cursor: pointer;
+      color: $white;
+      background-color: $blue;
+    }
+  }
+}
