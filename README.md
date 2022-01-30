@@ -29,23 +29,23 @@ Users should be able to:
 
 Mobile version
 
-![image](dist\images\screenshots\mob_version.png)
+![Image](dist\images\screenshots\mob_version.png)
 
 Mobile version - error state
 
-![image](dist\images\screenshots\mob__version_error__states.png)
+![Image](dist\images\screenshots\mob__version_error__states.png)
 
 Desktop Version
 
-![image](dist/images/screenshots/desktop_version.jpg)
+![Image](dist/images/screenshots/desktop_version.jpg)
 
 Desktop version - Invalid email format error state
 
-![image](dist\images\screenshots\desktop_version__error_state.jpg)
+![Image](dist\images\screenshots\desktop_version__error_state.jpg)
 
 Desktop version - Empty input field error state
 
-![image](dist\images\screenshots\desktop_version_error_state_2.jpg)
+![Image](dist\images\screenshots\desktop_version_error_state_2.jpg)
 
 ### Links
 
