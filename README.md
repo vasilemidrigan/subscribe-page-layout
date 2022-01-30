@@ -56,12 +56,10 @@ Desktop version - Empty input field error state
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - JavaScript
+- SASS(SCSS)
+- Semantic HTML5 markup
 
 ## Author
 
